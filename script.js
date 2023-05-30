@@ -31,7 +31,9 @@ function addTask() {
         taskList.appendChild(taskItem);
         taskInput.value = '';
         counter++;
+        showNotifications("Task add successfully");
         updateTaskCount();
+        
     }
 }
 
@@ -41,6 +43,7 @@ function deleteTask(event) {
     taskList.removeChild(taskItem);
     counter--;
     updateTaskCount();
+    showNotifications("Task deleted successfully");
 }
 
 // Function to mark a task as completed
@@ -52,6 +55,12 @@ function completeTask(event) {
 // Function to update the task count
 function updateTaskCount() {
     taskCount.textContent = counter;
+    showNotifications("update task successfully");
+}
+//show notification
+function showNotifications(text) {
+    //window.alert(text);
+    window.alert(text);
 }
 
 // Add event listener to the add button
