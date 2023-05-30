@@ -55,7 +55,7 @@ function completeTask(event) {
 // Function to update the task count
 function updateTaskCount() {
     taskCount.textContent = counter;
-    showNotifications("update task successfully");
+   
 }
 //show notification
 function showNotifications(text) {
