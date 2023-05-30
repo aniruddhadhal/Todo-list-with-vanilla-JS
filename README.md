@@ -1,20 +1,33 @@
 
 A todo list app
+-----------------------
 
 General steps to follow when creating a project
-Thinking about the UI
-Functionality
-Add a TODO
-Delete a TODO
-check task
-total items count
-Data
-tasks - an array
-task - {done, text, id}
-Functions (in code)
-addTodo
-deleteTodo
-checkTodo
-renderTodosList
-showNotification
+------------------------------------------------
 
+ 1.Thinking about the UI
+
+ 2.Functionality
+
+ 3.Add a TODO
+
+4.Delete a TODO
+
+5.check task
+
+6.total items count
+
+
+Functions (in code)
+----------------------------
+1. addTodo
+
+2.deleteTodo
+
+3. checkTodo
+
+4. renderTodosList
+
+5.showNotification
+
+.
